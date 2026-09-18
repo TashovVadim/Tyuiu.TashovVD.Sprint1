@@ -1,6 +1,6 @@
-﻿using Tyuiu.TashovVD.Sprint1.Task0.V30.Lib;
+﻿using Tyuiu.TashovVD.Sprint1.Task1.V18.Lib;
 
-namespace Tyuiu.TashovVD.Sprint1.Task0.V30
+namespace Tyuiu.TashovVD.Sprint1.Task1.V18
 {
     internal class Program
     {
@@ -12,24 +12,31 @@ namespace Tyuiu.TashovVD.Sprint1.Task0.V30
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #30                                                             *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #18                                                             *");
             Console.WriteLine("* Выполнил: Ташов В. Д. | АСОиУб-26-1                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать контрольную программу, которая вычисляет 20 * 5 - 4            *");
-            Console.WriteLine("* и печатает результат на экране.                                         *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+            Console.WriteLine("* вычисляет результат по формуле (x*y)/(x+1)-3 и печатает его на экране.  *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* 20 * 5 - 4                                                              *");
+            
+            double x, y;
+
+            Console.WriteLine("Введите значение X:");
+            x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите значение Y:");
+            y = Convert.ToDouble(Console.ReadLine());
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate());
-            Console.ReadLine();
+            Console.WriteLine(ds.Calculate(x, y));
+            Console.ReadKey();
         }
     }
 }
