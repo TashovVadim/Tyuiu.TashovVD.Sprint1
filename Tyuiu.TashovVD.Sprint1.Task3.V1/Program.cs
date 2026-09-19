@@ -37,7 +37,7 @@ namespace Tyuiu.TashovVD.Sprint1.Task3.V1
             DataService ds = new DataService();
             var res = ds.CylinderVolume(x, y);
 
-            Console.WriteLine("Обьем цилиндра: " + res);
+            Console.WriteLine($"Обьем цилиндра: " + res);
             Console.ReadKey();
         }
     }

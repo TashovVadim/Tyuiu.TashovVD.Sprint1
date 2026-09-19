@@ -11,7 +11,8 @@ namespace Tyuiu.TashovVD.Sprint1.Task3.V1.Test
             double x, y;
             x = 6;
             y = 7;
-            double wait = Math.PI * 6 * 6 * 7;
+
+            double wait = Math.Round(Math.PI * 6 * 6 * 7, 3);
             DataService ds = new DataService();
             var res = ds.CylinderVolume(x, y);
 

@@ -8,7 +8,7 @@ namespace Tyuiu.TashovVD.Sprint1.Task3.V1.Lib
         {
             const double Pi = Math.PI;
 
-            return Pi * r * r * h;
+            return Math.Round(Pi * r * r * h, 3);
         }
     }
 }
