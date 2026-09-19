@@ -10,8 +10,8 @@ namespace Tyuiu.TashovVD.Sprint1.Task4.V5
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #1                                                              *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнил: Ташов В. Д. | АСОиУб-26-1                                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
