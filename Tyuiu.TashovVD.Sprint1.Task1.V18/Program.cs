@@ -11,7 +11,7 @@ namespace Tyuiu.TashovVD.Sprint1.Task1.V18
             Console.Title = "Спринт #1 | Выполнил: Ташов В. Д. | АСОиУб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Организация ввода\вывода в консольнх приложениях                  *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #18                                                             *");
             Console.WriteLine("* Выполнил: Ташов В. Д. | АСОиУб-26-1                                     *");

@@ -9,7 +9,7 @@ namespace Tyuiu.TashovVD.Sprint1.Task3.V1
             Console.Title = "Спринт #1 | Выполнил: Ташов В. Д. | АСОиУб-26-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
             Console.WriteLine("* Задание #3                                                              *");
             Console.WriteLine("* Вариант #1                                                              *");
             Console.WriteLine("* Выполнил: Ташов В. Д. | АСОиУб-26-1                                     *");
